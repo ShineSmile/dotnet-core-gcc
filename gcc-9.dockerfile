@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:3.1-bionic
+FROM ubuntu:bionic
 
 ENV DEBIAN_FRONTEND noninteractive
 WORKDIR /tmp
