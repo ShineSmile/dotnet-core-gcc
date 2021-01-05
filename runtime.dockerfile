@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/runtime:3.1-bionic
+FROM mcr.microsoft.com/dotnet/core/runtime:3.1.10-bionic
 
 RUN apt-get update -y
 RUN apt-get dist-upgrade -y
